@@ -57,7 +57,7 @@ const ProductDetailModal = () => {
 
                     {/* Description */}
                     <p
-                        className={`text-sm leading-relaxed mb-4 ${isDark ? "text-gray-300" : "text-gray-600"
+                        className={`text-sm leading-relaxed mb-4 line-clamp-3 ${isDark ? "text-gray-300" : "text-gray-600"
                             }`}
                     >
                         {selectedProduct.description}
